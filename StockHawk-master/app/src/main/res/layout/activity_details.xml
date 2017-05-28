@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context="com.udacity.stockhawk.details.DetailsActivity">
+
+    <TextView
+        android:id="@+id/history_title"
+        tools:text="Price over time"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_weight="1.5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:background ="@android:color/white"
+            android:layout_height="0dp"
+            android:layout_weight="6.5"
+            />
+
+
+</LinearLayout>
