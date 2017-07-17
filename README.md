@@ -1,2 +1,2 @@
 # StockHawk
-The starter code was provided by Udacity. I treated some error cases, added a widget and some functionalities.
+The starter code was provided by Udacity. I treated some error cases (based on user's input), added a widget and a detailed screen with a chart.
